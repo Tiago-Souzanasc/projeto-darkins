@@ -1,0 +1,48 @@
+@media (max-width: 1500px) {
+    body {
+      background-color: black;
+    }
+
+    .cabecalho {
+      flex-wrap: wrap-reverse;
+    }
+
+    .sobre {
+      font-size: 20px;
+    }
+  
+    .titulo {
+      font-size: 40px;
+    }
+  
+    .fundo {
+      visibility: hidden;
+    }
+  
+    .conteudo_principal {
+      flex-wrap: wrap;
+    }
+  
+    .imagem {
+      width: 350px;
+    }
+    
+    .titulo-aatrox {
+      font-size: 30px;
+    }
+    
+    .texto-aatrox {
+      font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    
+  .cabecalho {
+    flex-direction: column-reverse;
+  }
+
+  .imagem {
+    width: 280px;
+  }
+ }

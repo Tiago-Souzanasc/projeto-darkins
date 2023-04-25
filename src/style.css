@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    font-family: 'barlow';
+  }
+  
+  .fundo {
+    margin: 0;
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+  }
+
+  .sobre {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    margin-right: 20px;
+    transition: 0.2s;
+  }
+
+  .sobre:hover {
+    background-color:rgba(196, 10, 10, 0.5);
+    border-radius: 40px;
+  }
+
+  .titulo {
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+    padding: 15px;
+  }
+  
+  .descricao {
+    color:white;
+    font-size: 20px;
+    padding: 15px;
+  }
+  
+  .conteudo_principal {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+  }
+  
+  .imagem {
+    width: 380px;
+    margin: 10px;
+    border: 2px solid white;
+    transition: 0.5s all ease-in-out;
+  }
+  
+  .imagem:hover {
+    transform: scale(1.05);
+  
+  }
+  
+  .nomes {
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+  }
+  
